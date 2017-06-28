@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mlrit.myapplication.MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="45dp"
+        android:layout_above="@+id/et2"
+        android:layout_alignLeft="@+id/et2"
+        android:layout_alignStart="@+id/et2"
+        android:layout_marginBottom="17dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="phno"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_above="@+id/et3"
+        android:layout_alignLeft="@+id/et3"
+        android:layout_alignStart="@+id/et3"
+        android:layout_marginBottom="28dp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="191dp"
+        android:layout_above="@+id/et4"
+        android:layout_alignLeft="@+id/et4"
+        android:layout_alignStart="@+id/et4"
+        android:layout_marginBottom="29dp" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="pwd"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="276dp"
+        android:layout_above="@+id/et5"
+        android:layout_alignLeft="@+id/et5"
+        android:layout_alignStart="@+id/et5"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="433dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginBottom="67dp" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Retype"
+
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="354dp"
+        android:layout_marginBottom="33dp"
+        android:layout_above="@+id/b"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
